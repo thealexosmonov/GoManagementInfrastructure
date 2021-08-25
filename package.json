@@ -12,16 +12,24 @@
   },
   "devDependencies": {
     "@aws-cdk/assert": "1.87.1",
+    "@aws-cdk/aws-apigateway": "latest",
+    "@aws-cdk/aws-dynamodb": "latest",
+    "@aws-cdk/aws-lambda": "latest",
     "@types/jest": "^26.0.10",
     "@types/node": "10.17.27",
+    "aws-cdk": "1.87.1",
+    "aws-sdk": "^2.953.0",
     "jest": "^26.4.2",
     "ts-jest": "^26.2.0",
-    "aws-cdk": "1.87.1",
     "ts-node": "^9.0.0",
     "typescript": "~3.9.7"
   },
   "dependencies": {
     "@aws-cdk/core": "1.87.1",
-    "source-map-support": "^0.5.16"
+    "@aws-sdk/client-dynamodb": "^3.23.0",
+    "async": "^3.2.0",
+    "help": "^3.0.2",
+    "source-map-support": "^0.5.16",
+    "spellchecker": "^3.7.1"
   }
 }
